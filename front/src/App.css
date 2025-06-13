@@ -1,0 +1,231 @@
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.topbar {
+  width: 100%;
+  background-color: #c62828;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.conteudo {
+  width: 100%;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-button {
+  background-color: #b71c1c;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.menu-button:hover {
+  background-color: #d32f2f;
+}
+
+.listagem-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.registro-box {
+  background-color: #2e2e2e;
+  color: white;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.registro-box header {
+  border-bottom: 1px solid #555;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.registro-box address {
+  font-style: normal;
+  margin-bottom: 0.5rem;
+}
+
+.registro-footer {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.registro-footer button {
+  background-color: #b71c1c;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.registro-footer button:hover {
+  background-color: #d32f2f;
+}
+
+.pagina-listar {
+  padding: 2rem;
+}
+
+.pagina-listar h2 {
+  margin-bottom: 2rem;
+}
+
+.listagem-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.registro-box {
+  background-color: #2e2e2e;
+  color: white;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.registro-box header {
+  border-bottom: 1px solid #555;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+}
+
+.registro-box address {
+  font-style: normal;
+  margin-bottom: 0.75rem;
+}
+
+.registro-footer {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: flex-end;
+}
+
+.registro-footer button {
+  background-color: #b71c1c;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.25rem;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.registro-footer button:hover {
+  background-color: #d32f2f;
+}
+
+.formulario-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  background-color: #2e2e2e;
+  color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.formulario-container h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Form layout spacing */
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formulario label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.formulario input[type="text"],
+.formulario input[type="tel"],
+.formulario input[type="email"],
+.formulario input[type="date"],
+.formulario input[type="radio"] {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #666;
+  border-radius: 4px;
+  background-color: #444;
+  color: white;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.formulario input[type="radio"] {
+  width: auto;
+  margin-right: 0.5rem;
+}
+
+.formulario p {
+  margin-top: 0.25rem;
+  color: #ff8a80;
+  font-size: 0.9rem;
+}
+
+/* Button container */
+.formulario-actions {
+  text-align: right;
+}
+
+.formulario button {
+  background-color: #b71c1c;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background-color: #d32f2f;
+}
+
+.sexo-options {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.pagina-novo {
+  padding: 2rem;
+}
