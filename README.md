@@ -5,7 +5,7 @@ Este projeto é um sistema web para **cadastrar**, **editar**, **listar** e **re
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 - **Cadastrar nova pessoa** com:
   - **Nome** (obrigatório)
@@ -19,7 +19,7 @@ Este projeto é um sistema web para **cadastrar**, **editar**, **listar** e **re
 
 ---
 
-## ⚙️ Como Usar
+## Como Usar
 
 ### 1. **Clone o repositório**
 
@@ -66,7 +66,7 @@ npm run dev
 ```
 
 
-## ✅ Pré-requisitos
+## Pré-requisitos
 
 - [Node.js](https://nodejs.org/) instalado
 - Navegador moderno (como Chrome, Firefox)
